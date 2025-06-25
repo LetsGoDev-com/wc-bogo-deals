@@ -1,0 +1,13 @@
+.wc-bogo-deals-notice-checkout {
+    background-color: #fff3cd;
+    color: #664d03;
+    border-color: #ffe69c;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    margin-left: 0;
+    padding: 1em 2em 1em 3.5em;
+    position: relative;
+    clear: both;
+    border-left-width: 8px;
+    border-left-style: solid;
+}

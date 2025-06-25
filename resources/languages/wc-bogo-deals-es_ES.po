@@ -1,0 +1,277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Bogo Deals\n"
+"POT-Creation-Date: 2024-05-23 09:58-0300\n"
+"PO-Revision-Date: 2025-06-01 19:48-0300\n"
+"Last-Translator: \n"
+"Language-Team: LetsGoDev\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;__;_x;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: app/BogoDeals.php:43
+msgid "WooCommerce Bogo Deals"
+msgstr "WooCommerce Bogo Deals"
+
+#: app/Controllers/MetaboxController.php:141
+#: app/Controllers/MetaboxController.php:142
+#: app/Controllers/MetaboxController.php:143
+#: app/Controllers/MetaboxController.php:144
+#: app/Controllers/MetaboxController.php:145
+#: app/Controllers/MetaboxController.php:204
+#: app/Controllers/MetaboxController.php:205 app/Overrides/WCSettings.php:22
+msgid "Bogo Deals"
+msgstr "Bogo Deals"
+
+#: app/Controllers/MetaboxController.php:146
+#: app/Controllers/MetaboxController.php:147
+msgid "Add New Bogo Deal"
+msgstr "Agregar nueva Oferta"
+
+#: app/Controllers/MetaboxController.php:148
+msgid "Edit Bogo Deal"
+msgstr "Editar Oferta"
+
+#: app/Controllers/MetaboxController.php:149
+msgid "New Bogo Deal"
+msgstr "Nueva Oferta"
+
+#: app/Controllers/MetaboxController.php:150
+msgid "View Bogo Deal"
+msgstr "Ver Oferta"
+
+#: app/Controllers/MetaboxController.php:151
+msgid "Search Bogo Deals"
+msgstr "Buscar Ofertas"
+
+#: app/Controllers/MetaboxController.php:152
+msgid "Nothing found"
+msgstr "Nada en contrado"
+
+#: app/Controllers/MetaboxController.php:153
+msgid "Nothing found in Trash"
+msgstr "Nada encontrado en el tacho"
+
+#: app/Controllers/MetaboxController.php:221
+msgid "Deal Conditions"
+msgstr "Condiciones de Oferta"
+
+#: app/Controllers/MetaboxController.php:239
+msgid "Enable Bogo"
+msgstr "Activar Oferta"
+
+#: app/Controllers/MetaboxController.php:248
+#: app/Controllers/MetaboxController.php:532
+msgid "Deal"
+msgstr "Oferta"
+
+#: app/Controllers/MetaboxController.php:255
+msgid "Custom"
+msgstr "Custom"
+
+#: app/Controllers/MetaboxController.php:267
+msgid "Deal Custom"
+msgstr "Deal Custom"
+
+#: app/Controllers/MetaboxController.php:269
+msgid "Example: 2x1"
+msgstr "Ejemplo: 2x1"
+
+#: app/Controllers/MetaboxController.php:281
+msgid "Apply discount to..."
+msgstr "Aplicar descuento a..."
+
+#: app/Controllers/MetaboxController.php:284
+msgid "the same product"
+msgstr "el mismo producto"
+
+#: app/Controllers/MetaboxController.php:285
+msgid "multiple products"
+msgstr "multiples productos"
+
+#: app/Controllers/MetaboxController.php:300
+msgid "Give most expensive products for free"
+msgstr "Dar gratis el producto más barato"
+
+#: app/Controllers/MetaboxController.php:301
+msgid "Give less expensive products for free"
+msgstr "Dar gratis el producto menos barato"
+
+#: app/Controllers/MetaboxController.php:322
+msgid "Apply only to user logged"
+msgstr "Aplicar sólo a usuarios registrados"
+
+#: app/Controllers/MetaboxController.php:336
+msgid "Choose user roles ( empty for all roles )"
+msgstr "Elige los roles ( vacío para todos los roles )"
+
+#: app/Controllers/MetaboxController.php:360
+msgid "Apply the deal only with a link"
+msgstr "Aplicar la oferta sólo con un link"
+
+#: app/Controllers/MetaboxController.php:376
+#: app/Controllers/MetaboxController.php:399
+msgid "Share this link with users who must access this deal"
+msgstr ""
+"Comparte este link con usuarios quienes deban tener acceso a esta oferta"
+
+#: app/Controllers/MetaboxController.php:420
+msgid "Deal Message"
+msgstr "Mensaje de Oferta"
+
+#: app/Controllers/MetaboxController.php:421
+msgid "This message will appear on the checkout page"
+msgstr "Este mensaje aparecerá en la página de venta"
+
+#: app/Controllers/MetaboxController.php:423
+msgid "Deal 2x1"
+msgstr "Oferta 2x1"
+
+#: app/Controllers/MetaboxController.php:434
+msgid "Deal Priority"
+msgstr "Prioridad de la Oferta"
+
+#: app/Controllers/MetaboxController.php:435
+msgid "1 is less"
+msgstr "1 es menor"
+
+#: app/Controllers/MetaboxController.php:447
+msgid "Deal location"
+msgstr "Ubicación de la Oferta"
+
+#: app/Controllers/MetaboxController.php:466
+msgid "Product Categories"
+msgstr "Categoría de Productos"
+
+#: app/Controllers/MetaboxController.php:467
+msgid "Select the categories where to apply the deal"
+msgstr "Seleciona las categorías dónde aplicará la oferta"
+
+#: app/Controllers/MetaboxController.php:479
+msgid "Product Attributes"
+msgstr "Atributo del Producto"
+
+#: app/Controllers/MetaboxController.php:480
+msgid "Select the attributes where to apply the deal"
+msgstr "Selecciona los atributos dónde aplicará la oferta"
+
+#: app/Controllers/MetaboxController.php:492
+msgid "Include Products"
+msgstr "Productos Incluídos"
+
+#: app/Controllers/MetaboxController.php:493
+msgid ""
+"Select the products where to apply the deal ( type more than 3 letters to "
+"start the search )"
+msgstr ""
+"Selecciona los productos dónde aplicará la oferta ( escribe más de 3 letras "
+"y se iniciará a buscar )"
+
+#: app/Controllers/MetaboxController.php:505
+msgid "Exclude Products"
+msgstr "Productos Excluídos"
+
+#: app/Controllers/MetaboxController.php:506
+msgid ""
+"Select the products where the deal will not apply ( type more than 3 letters "
+"to start the search )"
+msgstr ""
+"Selecciona los productos dónde no aplicará la oferta ( escribe más de 3 "
+"letras y se iniciará a buscar )"
+
+#: app/Controllers/MetaboxController.php:531
+msgid "Status"
+msgstr "Estado"
+
+#: app/Controllers/MetaboxController.php:533
+msgid "Type"
+msgstr "Tipo"
+
+#: app/Controllers/MetaboxController.php:534
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: app/Controllers/MetaboxController.php:535
+msgid "Priority"
+msgstr "Prioridad"
+
+#: app/Controllers/MetaboxController.php:554
+msgid "Enable"
+msgstr "Activado"
+
+#: app/Controllers/MetaboxController.php:554
+msgid "Disable"
+msgstr "Desactivado"
+
+#: app/Overrides/WCSettings.php:35
+msgid "General"
+msgstr "General"
+
+#: app/Overrides/WCSettings.php:81
+msgid "Notices"
+msgstr "Alertas"
+
+#: app/Overrides/WCSettings.php:86
+msgid "Notice to product page"
+msgstr "Alertar en la página de producto"
+
+#: app/Overrides/WCSettings.php:89
+msgid ""
+"Enable notice if the product has a deal in the product page (OnSale format)"
+msgstr ""
+"Activar alerta si el producto tiene una oferta en la página de producto "
+"( formato OnSale )"
+
+#: app/Overrides/WCSettings.php:92
+msgid "Notice to shop page"
+msgstr "Alertar en la página de shopping"
+
+#: app/Overrides/WCSettings.php:95
+msgid ""
+"Enable notice if there is a product with a deal in the shop page (OnSale "
+"format)"
+msgstr ""
+"Activar alerta si hay un producto con una oferta en la página shopping "
+"( formato OnSale )"
+
+#: app/Overrides/WCSettings.php:98
+msgid "Notice to checkout page"
+msgstr "Alertar en finalizar compra"
+
+#: app/Overrides/WCSettings.php:101
+msgid "Enable notice if any product in the cart almost has a deal"
+msgstr "Activar alerta si algún producto en el carrito casi tiene una oferta"
+
+#: app/Overrides/WCSettings.php:104
+msgid "Notice Message to checkout page"
+msgstr "Mensaje de la alerta en finalizar compra"
+
+#: app/Overrides/WCSettings.php:107
+msgid "[deal_number]: is like 2x1, 3x2, ... "
+msgstr "[deal_number]: es como 2x1, 3x2, ... "
+
+#: app/functions/Helper.php:21
+#, php-format
+msgid "%s does not exist."
+msgstr "%s no existe."
+
+#: app/functions/Settings.php:25
+msgid ""
+"You are almost there for a [deal_number], add more products to the cart and "
+"get a surprise"
+msgstr ""
+"Ya casi llegas a [deal_number], agrega más productos al carrito y recibe una "
+"sorpresa"
+
+#~ msgid "Appy to same product"
+#~ msgstr "Aplicar al mismo producto"
+
+#~ msgid "Appy to multiple products"
+#~ msgstr "Aplicar a multiples productos"

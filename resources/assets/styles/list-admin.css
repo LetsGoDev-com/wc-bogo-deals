@@ -1,0 +1,30 @@
+.wp-list-table .column-status,
+.wp-list-table .column-number,
+.wp-list-table .column-type,
+.wp-list-table .column-priority {
+	width: 10%;
+}
+
+.badge {
+	display: inline-flex;
+	line-height: 2.5em;
+	color: #777;
+	background: #e5e5e5;
+	border-radius: 4px;
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+	margin: -.25em 0;
+	cursor: inherit !important;
+	white-space: nowrap;
+	max-width: 100%;
+}
+
+.badge.badge-enable {
+	background: #c6e1c6;
+	color: #5b841b;
+}
+
+.badge > span {
+	margin: 0 1em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

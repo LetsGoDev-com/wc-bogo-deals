@@ -1,0 +1,44 @@
+{
+	"name": "letsgodev/wc-bogo-deals",
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"description": "This plugin allows add bogo deals",
+	"authors": [
+		{
+			"name": "Lets Go Dev",
+			"email": "support@letsgodev.com",
+			"homepage": "https://github.com/gonzalesc"
+		}
+	],
+	"repositories": [
+		{
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+	],
+	"extra": {
+        "installer-paths": {
+            "vendor/wpackagist-plugin/{$name}/": ["wpackagist-plugin/advanced-custom-fields"]
+        }
+    },
+	"require": {
+        "php": "^7.0 || ^8.0 || ^8.1 || ^8.2",
+        "wpackagist-plugin/advanced-custom-fields": "^6.4.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"BogoDeals\\Core\\": "app",
+			"BogoDeals\\Controllers\\": "app/Controllers",
+			"BogoDeals\\Overrides\\": "app/Overrides",
+			"BogoDeals\\Traits\\": "app/Traits"
+		},
+		"files": [
+      		"app/functions/Helper.php"
+		]
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
+	}
+}

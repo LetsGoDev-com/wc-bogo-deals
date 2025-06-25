@@ -1,0 +1,13 @@
+2024-06-10 - version 1.0.3
+Fix: WP Revision
+
+2024-06-10 - version 1.0.2
+Fix: permissions
+
+2024-06-04 - version 1.0.1
+Fix: WC Orders
+Fix: Compatible with HPOS
+Feature: Advanced filter in Order Analytics
+
+2024-05-23 - version 1.0.0
+The beginning
