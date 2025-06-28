@@ -148,27 +148,13 @@ class CheckoutController {
 		}
 
 		$groupPrice       = \floor( \count( $priceMultipleProducts ) / 2 );
-		$counterGroup     = 0;
+		$counterToNoPay   = 1;
+		$discountCounter  = $counterToNoPay * $groupPrice;
 		$discountSubtotal = 0;
 
-		foreach ( $priceMultipleProducts as $key => $price ) {
 
-			if ( $key % $groupPrice === 0  ) {
-				$counterGroup++;
-				$counterDiscount = 1;
-			}
-
-			if ( $counterGroup > $groupPrice ) {
-				break;
-			}
-
-			if ( $counterDiscount > 1 ) {
-				continue;
-			}
-
-			$discountSubtotal += $price;
-
-			$counterDiscount++;
+		for( $i=0; $i<$discountCounter; $i++ ) {
+			$discountSubtotal += $priceMultipleProducts[$i];
 		}
 
 		if ( $discountSubtotal === 0 ) {
