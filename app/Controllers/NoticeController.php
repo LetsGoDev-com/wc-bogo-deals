@@ -41,14 +41,11 @@ class NoticeController {
 
 		$html = '<span class="onsale" style="margin: 0 1px;">[deal_number]</span>';
 
-		foreach ( $dealsByProduct as $dealByProduct ) {
-			echo \wp_kses_post( \apply_filters(
-				'bogodeals/notice/product',
-				\str_replace( '[deal_number]', '2x1', $html ),
-				$html,
-				$dealByProduct
-			) );
-		}
+		echo \wp_kses_post( \apply_filters(
+			'bogodeals/notice/product',
+			\str_replace( '[deal_number]', '2x1', $html ),
+			$dealsByProduct
+		) );
 	}
 
 
@@ -72,15 +69,10 @@ class NoticeController {
 
 		$html = '<span class="onsale" style="margin: 0 1px;">[deal_number]</span>';
 
-		foreach ( $dealsByProduct as $dealByProduct ) {
-			echo \wp_kses_post( \apply_filters(
-				'bogodeals/notice/shop',
-				\str_replace( '[deal_number]', '2x1', $html ),
-				$html,
-				$dealByProduct
-			) );
-		}
+		echo \wp_kses_post( \apply_filters(
+			'bogodeals/notice/shop',
+			\str_replace( '[deal_number]', '2x1', $html ),
+			$dealsByProduct
+		) );
 	}
-
-
 }

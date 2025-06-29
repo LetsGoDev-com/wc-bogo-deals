@@ -40,7 +40,7 @@ Fork me in [https://github.com/LetsGoDev-com/wc-bogo-deals](https://github.com/L
 
 
 == Bogo Deals PRO - Features ==
-Look the **new premium verions** in ([https://www.letsgodev.com/product/woocommerce-culqi-pago-con-un-click/](http://bit.ly/304QRdF))
+Look the **new premium verions** in (https://www.letsgodev.com/product/woocommerce-bogo-deals/](https://www.letsgodev.com/product/woocommerce-bogo-deals/))
 
 * Includes all features from the free version
 * Unlock additional deals like 3x2, 4x3 — or create your own custom deals
@@ -66,13 +66,15 @@ Yes!, it works with taxes
 No, I’m sorry. For the moment it doesn’t work in cart block or checkout block
 
 == Screenshots ==
-1. Bogo deals list
-2. Main panel to create a bogo deal
-3. Location of the deal
-4. Smart deal notices
-5. Deals filter on the WC Order admin
-6. Deal description in the WC Order detail
-7. Deal advanced filter in WC Analitics
+1. Deal to same product
+2. Deal to a products group
+3. Bogo deals list
+4. Main panel to create a bogo deal
+5. Location of the deal
+6. Smart deal notices
+7. Deals filter on the WC Order admin
+8. Deal description in the WC Order detail
+9. Deal advanced filter in WC Analitics
 
 
 == Changelog ==
