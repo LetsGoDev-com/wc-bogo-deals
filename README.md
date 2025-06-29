@@ -46,7 +46,7 @@ composer install
 
 
 ## Changelog ##
-#### 1.0.5 ####
+#### 1.0.6 ####
 * The beginning
 
 
