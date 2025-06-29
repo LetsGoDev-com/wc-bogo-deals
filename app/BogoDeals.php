@@ -13,6 +13,7 @@ use BogoDeals\Controllers\CheckoutController;
 use BogoDeals\Controllers\OrderController;
 use BogoDeals\Controllers\HPOSController;
 use BogoDeals\Overrides\UserRoleEditorPlugin;
+use BogoDeals\Controllers\LinksController;
 
 /**
  * Class BogoDeals
@@ -57,6 +58,7 @@ class BogoDeals {
 		NoticeController::getInstance();
 		HPOSController::getInstance();
 		UserRoleEditorPlugin::getInstance();
+		LinksController::getInstance();
 	}
 
 
