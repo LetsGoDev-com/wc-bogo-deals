@@ -40,7 +40,7 @@ Fork me in [https://github.com/LetsGoDev-com/wc-bogo-deals](https://github.com/L
 
 
 == Bogo Deals PRO - Features ==
-Look the **new premium verions** in (https://www.letsgodev.com/product/woocommerce-bogo-deals/](https://www.letsgodev.com/product/woocommerce-bogo-deals/))
+Look the **new premium verions** in [https://www.letsgodev.com/product/woocommerce-bogo-deals/](https://www.letsgodev.com/product/woocommerce-bogo-deals/)
 
 * Includes all features from the free version
 * Unlock additional deals like 3x2, 4x3 — or create your own custom deals
