@@ -17,11 +17,11 @@
  * Text Domain:          wc-bogo-deals
  * Requires Plugins:     woocommerce
  * Requires PHP:         7.4
- * WP stable tag:        6.6.0
- * WP requires at least: 6.6.0
- * WP tested up to:      6.8.1
+ * WP stable tag:        6.8.0
+ * WP requires at least: 6.8.0
+ * WP tested up to:      6.9.0
  * WC requires at least: 9.6.0
- * WC tested up to:      9.9.4
+ * WC tested up to:      10.4.3
  */
 
 // If this file is called directly, abort.

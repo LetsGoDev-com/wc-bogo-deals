@@ -1,8 +1,8 @@
 === Bogo Deals For WooCommerce ===
 Contributors: letsgodev, gonzalesc
 Tags: bogo deals, offers, 2x1
-Requires at least: 6.6
-Tested up to: 6.8
+Requires at least: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
 Stable tag: 1.0.6
 License: GPL-3.0+
